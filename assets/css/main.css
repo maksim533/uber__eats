@@ -1,0 +1,196 @@
+:root{
+    --bg-color: #FFFFFF;
+    --text-color: #1D1D1D;
+    --accent-color: #626262;
+    --color-fon: #262626;
+    --color-knopka: #3B3B3B;
+
+
+
+
+
+
+}
+
+html, body{
+    height: 100%;
+}
+
+
+body {
+    min-width: 320px;
+    font-family: Roboto, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+/* =================================General rules=====================*/
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main.main {
+    flex: 1 1 auto;
+}
+
+/* =================================General rules=====================*/
+
+
+/* =================================Header rules=====================*/
+
+.btn{
+    color: var(--text-color);
+    border-radius: 0;
+    border: 1px solid #E0E0E0;
+    font-family: Roboto;
+    font-size: 13px;
+    text-align: center;
+}
+
+#cart{
+    border-radius: 0;
+    border: none;
+}
+.header{
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    background-color: var(--bg-color);
+
+
+}
+
+
+
+
+/* =================================Header rules=====================*/
+
+/* =================================Main rules=====================*/
+.form-control{
+    border:0;
+    border-bottom: 2px solid rgba(38, 38, 38, 0.16);
+    border-radius: 0;
+    margin-top: 32px;
+    padding-left: 0rem;
+    line-height: 0px;
+    color:  var(--accent-color)
+}
+.title{
+    font-family: Roboto,sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 56px;
+
+}
+.content{
+    padding-top: 16px;
+}
+
+
+h6,.content-name{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: var(--text-color);
+
+}
+p.name{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+
+}
+p.name-1{
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: left;
+    color: var(--text-color);
+
+}
+a.name-3 {
+    text-decoration: none;
+}
+
+.card{
+    border: 0;
+}
+img.card-img-top{
+    border-radius: 0;
+}
+/* =================================Main rules=====================*/
+
+
+
+/* =================================footer rules=====================*/
+.footer{
+    background-color: var(--color-fon);
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.footer-line{
+    opacity: 0,4%;
+    color: var(--bg-color);
+    border-bottom: 1px solid;
+    padding-top: 40px;
+}
+.icons{
+    padding-right: 10px;
+    
+}
+.btn-secondary{
+    width: 227px;
+    height: 40px;
+    text-align: start;
+    border: 0;
+    background-color: var(--color-knopka);
+    color: var(--bg-color);
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    line-height: 15.23px;
+    text-align: left;
+
+}
+.dropdown{
+    padding-top: 25px;
+   
+}
+.logo-social-contact{
+    padding-top: 25px;
+}
+.list-unstyled, a{
+    text-decoration: none;
+    color: var(--bg-color);
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 15.23px;
+    text-align: left;
+
+}
+.list-unstyled, ul{
+    padding-top: 25px;
+}
+.logo-install{
+    padding-left: 25px;
+    padding-top: 40px;
+}
+.footer-install{
+    text-align: center;
+}
+.footer-copyright{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    color: var(--bg-color);
+    font-family: Roboto, sans-serif;
+    font-size: 11px;
+    line-height: 12.89px;
+    text-align: left;
+
+}
+
+
+/* =================================footer rules=====================*/
